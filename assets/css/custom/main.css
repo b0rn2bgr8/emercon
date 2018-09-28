@@ -1,0 +1,96 @@
+﻿body {
+    background-image: url("../../img/condo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#page-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+#logo {
+    height: 60px !important;
+    width: auto !important;
+}
+.navbar{
+    background: transparent !important;
+}
+.jumbotron {
+    padding: 0;
+    margin: 0;
+    background: transparent !important;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+#justy {
+}
+nav a{
+    font-size: 14px !important;
+}
+#services-container, #about-container, #contact-container, #gallery {
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+#services {
+    height: auto;
+}
+#about-container{
+    background-color: teal;
+}
+#contact-container{
+    background-color: rgba(0,0,0,0.7);
+}
+#a-center {
+    height: inherit;
+    display: flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+#services h6 {
+    font-size: 1em;
+    margin-top: 5px;
+}
+#services *{
+   cursor: pointer;
+}
+
+#about-us p{
+    line-height: 35px;
+}
+input, textarea{
+    border: black !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #fff !important;
+    background: transparent !important;
+    color: #fff !important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+    .jumbotron{
+    }
+    .jumbotron h1{
+        font-size: 2em;
+    }
+}
